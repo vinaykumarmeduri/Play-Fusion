@@ -1,0 +1,59 @@
+/* GroupChats.css */
+
+.group-chats-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.group-chats-list-group {
+  margin-top: 20px;
+}
+
+.group-chats-list-group-item {
+  background-color: #343a40; /* Set the background color to dark grey */
+  border: none;
+  padding: 15px 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 8px; /* Add border radius for card look */
+  margin-bottom: 10px; /* Add spacing between cards */
+}
+
+.group-chats-list-group-item:last-child {
+  border-bottom: none;
+}
+
+.group-chats-list-group-item:hover {
+  background-color: #495057;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.group-chats-list-group-item a {
+  text-decoration: none;
+  color: #000000; /* Set the text color to black */
+  display: block;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.group-chats-list-group-item a:hover {
+  color: #ffffff; /* Change color to white on hover */
+}
+
+.group-chats-list-group-item .btn {
+  background-color: #007bff; /* Set button background to blue */
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-top: 10px; /* Add spacing above the button */
+}
+
+.group-chats-list-group-item .btn:hover {
+  background-color: #0056b3; /* Darken the blue on hover */
+}
+
+.group-chats-container h2 {
+  color: #343a40; /* Set the font color to dark */
+  font-weight: 700;
+  margin-bottom: 30px;
+}
